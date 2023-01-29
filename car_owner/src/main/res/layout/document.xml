@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_centerHorizontal="true"
+    android:layout_width="320dp"
+    android:layout_height="600dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardBackgroundColor="#E3E1E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/document"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NID CARD"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/add_img"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="20dp"
+            android:layout_height="150dp"
+            app:cardBackgroundColor="#FFFDFD"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:src="@drawable/tap_to_add_image"
+                android:layout_height="150dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/nid_card_nmbr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="15dp"
+            android:hint="NID CARD NUMBER"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+
+
+    </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/abc"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/black"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/textview_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

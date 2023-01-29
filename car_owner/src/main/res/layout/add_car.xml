@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_centerHorizontal="true"
+    android:layout_width="320dp"
+    android:layout_height="650dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardBackgroundColor="#E3E1E1">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/car_rent"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/car_company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:editable="false"
+            android:ems="10"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/person"
+            android:drawableRight="@drawable/drop_down"
+            android:paddingRight="15dp"
+            android:drawablePadding="15dp"
+            android:hint="Car company"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/car_model"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:editable="false"
+            android:ems="10"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/person"
+            android:drawableRight="@drawable/drop_down"
+            android:paddingRight="15dp"
+            android:drawablePadding="15dp"
+            android:hint="Car model"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:editable="false"
+            android:ems="10"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/person"
+            android:drawableRight="@drawable/drop_down"
+            android:paddingRight="15dp"
+            android:drawablePadding="15dp"
+            android:hint="Vehicle type"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+        <EditText
+            android:id="@+id/serial_plate"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="15dp"
+            android:hint="Serial palate number"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="15dp"
+            android:hint="Service location"
+            android:editable="false"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp" />
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_for_edit_text"
+            android:drawableLeft="@drawable/price"
+            android:drawablePadding="15dp"
+            android:hint="Price"
+            android:textColorHint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/next_btn"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/black"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/textview_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

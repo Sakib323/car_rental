@@ -1,0 +1,7 @@
+<resources>
+    <string name="english">car_owner</string>
+    <string name="english1">Dummy Button</string>
+    <string name="english2">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="english3">Hello blank fragment</string>
+</resources>

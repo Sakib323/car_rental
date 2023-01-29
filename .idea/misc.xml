@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/car_owner/src/main/res/layout/activity_main.xml" value="0.3234375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/src/main/res/drawable/round_bottom_nav.xml" value="0.1225" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/src/main/res/drawable/search.xml" value="0.1225" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/src/main/res/layout/fragment_home_fragment.xml" value="0.3375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/app/src/main/res/menu/item_menu.xml" value="0.3375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable-v24/round_bottom_nav.xml" value="0.1225" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/bacground_for_dialog.xml" value="0.167" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/background_for_edit_text.xml" value="0.167" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/button_background.xml" value="0.1225" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/document.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/for_add_car_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/drawable/male.xml" value="0.167" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/activity_login_car_owner.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/activity_profile_car_owner.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/activity_register_car_owner.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/add_car.xml" value="0.2" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/car_item.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/dialog_temp.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/document.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/error.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/fragment_blank.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/fragment_fullscreen.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/location.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/location_1.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/upload_car_img.xml" value="0.27704147071398033" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/layout/verify.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/car_owner/src/main/res/menu/item_menu.xml" value="0.3375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/project/android_studio_project/driver/src/main/res/layout/activity_main.xml" value="0.3375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

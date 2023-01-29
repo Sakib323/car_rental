@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "255134840498",
+    "firebase_url": "https://car-rental-9ba32-default-rtdb.firebaseio.com",
+    "project_id": "car-rental-9ba32",
+    "storage_bucket": "car-rental-9ba32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255134840498:android:0e515b0c8c2e80a5c4bbab",
+        "android_client_info": {
+          "package_name": "com.itsolution.car_owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeLEzWpUSYlM8MJohhW0lJKnGUW6jLqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255134840498:android:2dbc5e31fc70a5b9c4bbab",
+        "android_client_info": {
+          "package_name": "com.itsolution.car_rental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeLEzWpUSYlM8MJohhW0lJKnGUW6jLqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255134840498:android:237dcf1abe975600c4bbab",
+        "android_client_info": {
+          "package_name": "com.itsolution.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeLEzWpUSYlM8MJohhW0lJKnGUW6jLqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255134840498-cjgvgu1ua1vuke802eaog2f6nnmus3ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
